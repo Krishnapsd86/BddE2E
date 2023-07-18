@@ -59,5 +59,6 @@ public class PIMStepDefinitions {
 		Thread.sleep(1000);
 		String recordText = driver.findElement(By.xpath("//span[text()='No Records Found']")).getText();
 		System.out.println("Employee Record: " + recordText);
+		driver.quit();
 	}
 }
