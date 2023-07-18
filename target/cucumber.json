@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2023-07-18T02:55:25.761Z",
+        "start_timestamp": "2023-07-18T17:08:32.724Z",
         "line": 13,
         "name": "Validate PIM function",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 10543094700,
+              "duration": 16557235500,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1727864200,
+              "duration": 461022800,
               "status": "passed"
             },
             "line": 5,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 28724500,
+              "duration": 1237071700,
               "status": "passed"
             },
             "line": 6,
@@ -59,7 +59,7 @@
           },
           {
             "result": {
-              "duration": 2256993900,
+              "duration": 2325975800,
               "status": "passed"
             },
             "line": 7,
@@ -71,7 +71,7 @@
           },
           {
             "result": {
-              "duration": 1439985300,
+              "duration": 1313168000,
               "status": "passed"
             },
             "line": 8,
@@ -89,7 +89,7 @@
           },
           {
             "result": {
-              "duration": 1054507400,
+              "duration": 1348454000,
               "status": "passed"
             },
             "line": 9,

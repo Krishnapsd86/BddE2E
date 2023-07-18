@@ -11,7 +11,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class PIMStepDefinitions {
-	WebDriver driver;
+	public static WebDriver driver;
 
 	@Given("^I want to Navigate to OrangeHrm$")
 	public void navigateToOrangeHrm() throws InterruptedException {
