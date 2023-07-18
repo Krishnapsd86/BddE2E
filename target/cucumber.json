@@ -1,0 +1,112 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-18T02:55:25.761Z",
+        "line": 13,
+        "name": "Validate PIM function",
+        "description": "",
+        "id": "e2e-testing-of-orangehrm-pim-function;validate-pim-function;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10543094700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I want to Navigate to OrangeHrm",
+            "match": {
+              "location": "StepDefination.PIMStepDefinitions.navigateToOrangeHrm()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1727864200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Validate with valid Username \"Admin\" and Password \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Admin",
+                  "offset": 30
+                },
+                {
+                  "val": "admin123",
+                  "offset": 51
+                }
+              ],
+              "location": "StepDefination.PIMStepDefinitions.validateCredentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28724500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Sucessfully login to Homepage",
+            "match": {
+              "location": "StepDefination.PIMStepDefinitions.loginToHomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2256993900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on PIM function",
+            "match": {
+              "location": "StepDefination.PIMStepDefinitions.clickPIMFunction()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1439985300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select Employee information with Valid  id \"1021\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1021\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefination.PIMStepDefinitions.select_Employee_information_with_Valid_id(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1054507400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Successfully see the records of input Employee",
+            "match": {
+              "location": "StepDefination.PIMStepDefinitions.verifyEmployeeRecords()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "E2E Testing Of OrangeHRM PIM Function",
+    "description": "",
+    "id": "e2e-testing-of-orangehrm-pim-function",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/E2E.feature",
+    "tags": []
+  }
+]
